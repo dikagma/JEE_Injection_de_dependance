@@ -1,2 +1,2 @@
-com.cmdb.dao.DaoImpl
+com.cmdb.ext.DaoImplV2
 com.cmdb.metier.MetierImpl
