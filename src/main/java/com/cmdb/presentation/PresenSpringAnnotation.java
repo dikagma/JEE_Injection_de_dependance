@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class PresenSpringAnnotation {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext("com.cmdb.ext","com.cmdb.metier");
+        ApplicationContext context = new AnnotationConfigApplicationContext("com.cmdb");
         IMetier metier = context.getBean(IMetier.class);
         System.out.println("RES" + metier.calcul());
         System.out.println("Test version spring annotation reussie");
